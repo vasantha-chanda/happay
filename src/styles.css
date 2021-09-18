@@ -1,0 +1,70 @@
+*{
+  box-sizing:border-box;  
+}
+.home{
+    width:94%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width:40px;
+    height:60px;
+
+}
+.cart{
+    position:relative;
+    top:15px;
+    width:20px;height:20px;
+}
+.person{
+    position:relative;
+    top:15px;
+    width:20px;
+    height:20px;
+    margin-left:10px;
+}
+.span{
+    color:blue;
+}
+/* .popular{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:rgb(61, 54, 54);
+} */
+p.strong{
+    text-align: center;
+}
+.staroutline{
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    color:blue; */
+    width:100%;
+    margin:0 auto;
+}
+.cards{
+    display:flex;
+    width:85%;
+    flex-wrap:wrap;
+    margin:0 auto;
+
+}
+.cardsimage{
+    width:200px;
+}
+.containercards{
+    width:33%;
+    margin-top:100px ;
+    
+}
+.item_count{
+    position:absolute;
+    top:10px;
+    right:70px;
+    background:red;
+    border-radius:80%;
+    width:20px;
+}
